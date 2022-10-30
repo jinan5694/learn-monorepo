@@ -10,9 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.8.4",
+    "vite": "^3.2.1",
     "vue": "^3.2.41"
   },
   "dependencies": {
+    "@base/bar": "workspace:^1.0.0",
     "@base/foo": "workspace:1.0.0"
   }
 }
