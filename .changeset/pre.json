@@ -1,0 +1,15 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "apis": "1.0.0",
+    "@base/bar": "1.0.0",
+    "@base/foo": "1.0.0",
+    "play": "0.0.0"
+  },
+  "changesets": [
+    "fifty-snails-rest",
+    "happy-mails-deny",
+    "two-roses-move"
+  ]
+}
