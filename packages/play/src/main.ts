@@ -3,10 +3,11 @@ import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 
 import { foo } from '@base/foo'
-import { bar } from '@base/bar'
+import { bar, baz } from '@base/bar'
 
 console.log(foo);
 bar()
+baz(1, '2')
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
