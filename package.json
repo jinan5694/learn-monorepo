@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:play": "pnpm -F play build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.8.4",
-    "vite": "^3.2.1",
-    "vue": "^3.2.41"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue": "^3.3.8"
   },
   "dependencies": {
     "@base/bar": "workspace:^1.0.0",
