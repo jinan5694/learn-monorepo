@@ -24,3 +24,5 @@ pnpm outdated
 # 检查所有包，包括子包
 pnpm outdated -r
 ```
+
+npx -p typescript tsc src/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir types
